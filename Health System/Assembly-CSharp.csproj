@@ -58,8 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Codes\GameHandler.cs" />
-    <Compile Include="Assets\Codes\HealthBar.cs" />
-    <Compile Include="Assets\Codes\HealthSystem.cs" />
+    <Compile Include="Assets\Codes\Hero\HealthBar.cs" />
+    <Compile Include="Assets\Codes\Hero\HealthSystem.cs" />
+    <Compile Include="Assets\Codes\Hero\Movement.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/onurk/Documents/GitHub/Unity/Health-Sysyem/Health System/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
